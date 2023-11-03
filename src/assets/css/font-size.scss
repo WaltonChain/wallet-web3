@@ -1,0 +1,87 @@
+
+@for $i from 12 through 120 {
+  @if $i % 2==0 or $i % 5==0 {
+    .fs-#{$i} {
+      font-size: $i + px;
+    }
+  }
+}
+
+// gl
+@media (max-width: $screen-gl-max) {
+  .fs-gl-10 {
+    font-size: 12px;
+    transform: scale(0.83);
+  }
+
+  @for $i from 0 through 120 {
+    @if $i % 2==0 {
+      .fs-gl-#{$i} {
+        font-size: $i + px;
+      }
+    }
+  }
+}
+
+// xl
+@media (max-width: $screen-xl-max) {
+  .fs-xl-10 {
+    font-size: 12px;
+    transform: scale(0.83);
+  }
+
+  @for $i from 0 through 120 {
+    @if $i % 2==0 {
+      .fs-xl-#{$i} {
+        font-size: $i + px;
+      }
+    }
+  }
+}
+
+
+// lg
+@media (max-width: $screen-lg-max) {
+  .fs-lg-10 {
+    font-size: 12px;
+    transform: scale(0.83) !important;
+  }
+
+  @for $i from 0 through 80 {
+    @if $i % 2==0 {
+      .fs-lg-#{$i} {
+        font-size: $i + px !important;
+      }
+    }
+  }
+}
+
+// sm
+@media (max-width: $screen-sm-max) {
+  .fs-sm-10 {
+    font-size: 12px;
+    transform: scale(0.83) !important;
+  }
+
+  @for $i from 0 through 80 {
+    .fs-sm-#{$i} {
+      font-size: $i + px !important;
+    }
+  }
+}
+
+// xs
+@media (max-width: $screen-xs-max) {
+  .fs-xs-10 {
+    font-size: 12px;
+    transform: scale(0.83) !important;
+  }
+
+  @for $i from 0 through 80 {
+    @if $i % 2==0 {
+      .fs-xs-#{$i} {
+        font-size: $i + px !important;
+      }
+    }
+  }
+}

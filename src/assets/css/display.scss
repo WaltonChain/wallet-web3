@@ -1,0 +1,88 @@
+.v-hidden { visibility: hidden; }
+.v-visible { visibility: visible; }
+
+.d-none {  display: none; }
+.d-block {  display: block; }
+.d-flex {  display: flex; }
+.d-grid { display: grid; }
+.d-inline {  display: inline; }
+.d-inline-block {  display: inline-block; }
+.d-table { display: table; }
+.d-table-cell { display: table-cell; }
+
+.p-relative { position: relative; }
+.p-absolute { position: absolute; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+// xl
+@media (max-width: $screen-xl-max) {
+  .d-xl-none { display: none; }
+  .d-xl-block { display: block; }
+  .d-xl-flex { display: flex; }
+  .d-xl-grid { display: grid; }
+  .d-xl-inline-block { display: inline-block; }
+  .d-xl-table { display: table; }
+  .d-xl-table-cell { display: table-cell; }
+
+  .v-xl-hidden { visibility: hidden; }
+  .v-xl-visible { visibility: visible; }
+  
+  .p-xl-relative { position: relative; }
+  .p-xl-absolute { position: absolute; }
+
+  .float-xl-left { float: left; }
+  .float-xl-right { float: right; }
+}
+
+// lg
+@media (max-width: $screen-lg-max) {
+  .d-lg-none { display: none; }
+  .d-lg-block { display: block; }
+  .d-lg-flex { display: flex; }
+  .d-lg-grid { display: grid; }
+  .d-lg-inline-block { display: inline-block; }
+  .d-lg-table { display: table; }
+  .d-lg-table-cell { display: table-cell; }
+
+  .v-lg-hidden { visibility: hidden; }
+  .v-lg-visible { visibility: visible; }
+
+  .float-lg-left { float: left; }
+  .float-lg-right { float: right; }
+}
+
+// sm 
+@media (max-width: $screen-sm-max) {
+  .d-sm-none { display: none; }
+  .d-sm-block { display: block; }
+  .d-sm-flex { display: flex; }
+  .d-sm-grid { display: grid; }
+  .d-sm-inline-block { display: inline-block; }
+  .d-sm-table { display: table; }
+  .d-sm-table-cell { display: table-cell; }
+
+  .v-sm-hidden { visibility: hidden; }
+  .v-sm-visible { visibility: visible; }
+
+  .float-sm-left { float: left; }
+  .float-sm-right { float: right; }
+}
+
+// xs
+@media (max-width: $screen-xs-max) {
+  .d-xs-none { display: none; }
+  .d-xs-block { display: block; }
+  .d-xs-flex { display: flex; }
+  .d-xs-grid { display: grid; }
+  .d-xs-inline-block { display: inline-block; }
+  .d-xs-table { display: table; }
+  .d-xs-table-cell { display: table-cell; }
+
+  .v-xs-hidden { visibility: hidden; }
+  .v-xs-visible { visibility: visible; }
+
+  .float-xs-left { float: left; }
+  .float-xs-right { float: right; }
+}

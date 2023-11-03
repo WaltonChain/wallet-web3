@@ -1,0 +1,17 @@
+.bg-banner {
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(@/assets/img/banner.gif);
+    background-color: #080808;
+}
+
+// xl
+@media only screen and (max-width: $screen-xl-max) {}
+
+// sm
+@media only screen and (max-width: $screen-sm-max) {
+    .bg-banner {
+        background-size: auto 100%;
+    }
+}

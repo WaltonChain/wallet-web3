@@ -1,0 +1,31 @@
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+// xl
+@media only screen and (max-width: $screen-xl-max) {
+  .text-xl-left { text-align: left; }
+  .text-xl-center { text-align: center; }
+  .text-xl-right { text-align: right; }
+}
+
+// lg
+@media only screen and (max-width: $screen-lg-max) {
+  .text-lg-left { text-align: left; }
+  .text-lg-center { text-align: center; }
+  .text-lg-right { text-align: right; }
+}
+
+// sm
+@media only screen and (max-width: $screen-sm-max) {
+  .text-sm-left { text-align: left; }
+  .text-sm-center { text-align: center; }
+  .text-sm-right { text-align: right; }
+}
+
+// xs
+@media only screen and (max-width: $screen-xs-max) {
+  .text-xs-left { text-align: left; }
+  .text-xs-center { text-align: center; }
+  .text-xs-right { text-align: right; }
+}

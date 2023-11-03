@@ -1,0 +1,53 @@
+
+@for $i from 100 through 900 {
+
+  @if $i % 100==0 {
+    .fw-#{$i} {
+      font-weight: $i  !important;
+    }
+  }
+}
+
+// xl
+@media (max-width: $screen-xl-max) {
+  @for $i from 100 through 900 {
+    @if $i % 100==0 {
+      .fw-xl-#{$i} {
+        font-weight: $i  !important;
+      }
+    }
+  }
+}
+
+// lg
+@media (max-width: $screen-lg-max) {
+  @for $i from 100 through 900 {
+    @if $i % 100==0 {
+      .fw-lg-#{$i} {
+        font-weight: $i  !important;
+      }
+    }
+  }
+}
+
+// sm
+@media (max-width: $screen-sm-max) {
+  @for $i from 100 through 900 {
+    @if $i % 100==0 {
+      .fw-sm-#{$i} {
+        font-weight: $i  !important;
+      }
+    }
+  }
+}
+
+// xs
+@media (max-width: $screen-xs-max) {
+  @for $i from 100 through 900 {
+    @if $i % 100==0 {
+      .fw-xs-#{$i} {
+        font-weight: $i  !important;
+      }
+    }
+  }
+}
