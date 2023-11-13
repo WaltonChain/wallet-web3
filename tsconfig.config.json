@@ -6,3 +6,24 @@
     "types": ["node"]
   }
 }
+#update by hubuer begin
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["naive-ui/volar", "node"],
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+  },
+
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}
+#update by hubuer end
